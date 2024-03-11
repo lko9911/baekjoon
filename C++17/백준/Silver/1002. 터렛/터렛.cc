@@ -6,6 +6,7 @@ int main() {
 	int T;
 	cin >> T;
 
+// 예외 처리 
 	while (T--) {
 		double cal[6];
 		double load = 0;
