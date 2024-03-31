@@ -9,7 +9,7 @@ int x_move[4] = {0,0,-1,1};
 int y_move[4] = {-1,1,0,0};
 
 
-// 인접 거리의 수 저장 함수
+// 인접 거리의 수 저장 함수 (DFS 알고리즘 사용)
 void DFS(int x, int y,int m,int n) {
 	farm[x][y] = 0;
 	for (int i = 0; i < 4; i++) {
