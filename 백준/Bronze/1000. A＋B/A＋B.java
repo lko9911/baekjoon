@@ -1,16 +1,8 @@
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        int A = scanner.nextInt();
-        int B = scanner.nextInt();
-        
-        int sum = A + B;
-
-        System.out.println(sum); 
-        
-        scanner.close();
-    }
+import java.io.*;
+class Main{
+public static void main(String[]a)throws Exception{
+BufferedReader b=new BufferedReader(new InputStreamReader(System.in));
+String[]s=b.readLine().split(" ");
+System.out.println(Integer.parseInt(s[0])+Integer.parseInt(s[1]));
+}
 }
